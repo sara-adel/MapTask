@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MapTask</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--For Google Service Update-->
+    <string name="dialog_message">This app use google play services only for Notification features</string>
+    <string name="dialog_Title">you Need to update</string>
+    <string name="dialog_toast">You Need To Instill Google Play Store First</string>
+    <string name="dialog_ok">Ok</string>
+
+    <string name="go_button">Go</string>
+</resources>
