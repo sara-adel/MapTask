@@ -7,13 +7,15 @@
     android:layout_height="match_parent"
     tools:context="com.sara.maptask.MapsActivity" >
 
-    <Button
+   <Button
         android:id="@+id/go"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right|bottom"
+        android:layout_gravity="end|bottom"
+        android:background="@color/btnBackground"
         android:text="@string/go_button"
-        android:padding="10dp"
-        android:layout_marginTop="20dp"
-        android:paddingRight="10dp"/>
+        android:padding="@dimen/padding"
+        android:paddingRight="@dimen/padding_right_bottom"
+        android:paddingLeft="@dimen/padding_right_bottom"
+        android:paddingEnd="@dimen/padding_right_bottom"/>
 </fragment>
